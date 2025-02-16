@@ -17,7 +17,7 @@ Le **Bus Factor** est le **nombre de personnes pouvant disparaître avant que le
 
 🚌 **Origine** : "Que se passe-t-il si un développeur clé est percuté par un bus ?" (ou quitte l'équipe).
 
-![Bus Factor Illustration](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Bus_factor_diagram.svg/1200px-Bus_factor_diagram.svg.png)
+![Bus Factor Illustration](https://via.placeholder.com/800x400?text=Bus+Factor+Illustration)
 
 ```js
 // Exemple de code ultra personnalisé (Bus Factor = 1)
@@ -49,7 +49,7 @@ function processData(input) {
 
 📌 Si elle part → **rupture du développement**.
 
-![Illustration de dépendance](https://miro.medium.com/max/1400/1*fIcKKTXYhS66FUbjwGfM8A.png)
+![Illustration de dépendance](https://via.placeholder.com/800x400?text=Dependance+Projet)
 
 ```sh
 # Vérifier qui modifie le plus le projet
@@ -67,21 +67,12 @@ Si une seule personne est en haut du classement, c'est un **Bus Factor critique*
 
 📌 Nécessité de **reverse-engineering**.
 
-![Exemple de projet avec un Bus Factor critique](https://media.licdn.com/dms/image/C5612AQHgWSPcaeYZQA/article-cover_image-shrink_600_2000/0/1520110595336?e=2147483647&v=beta&t=yLdpw0GONKKQOCyQkCzglPkmjfjcJAr6n34u9sJX3k8)
+![Exemple de projet avec un Bus Factor critique](https://via.placeholder.com/800x400?text=Projet+Bus+Factor)
 
 ```sh
 # Trouver qui a écrit un morceau de code spécifique
 git blame src/app.js
 ```
-
----
-
-## 💰 **Impact économique**
-📌 Coût élevé pour former de nouveaux développeurs.
-
-📌 Retards dans les livraisons.
-
-📌 Risque de **perte de compétitivité**.
 
 ---
 
@@ -102,7 +93,7 @@ git log --pretty=format:"%an" --name-only | sort | uniq -c | sort -nr
 - Qui a écrit quelles parties du code ?
 - Utiliser **GitHub Insights** ou `git shortlog -s -n`.
 
-![Exemple de contribution Git](https://user-images.githubusercontent.com/6280556/73296054-dc8f5700-41ef-11ea-9399-6634a1fd61b2.png)
+![Exemple de contribution Git](https://via.placeholder.com/800x400?text=Git+Contributions)
 
 ```sh
 # Qui a fait le plus de commits ?
@@ -130,12 +121,6 @@ npm start
 
 ---
 
-## 🏗 **4. Mapping des responsabilités**
-- Qui est responsable de quoi ?
-- Les tâches sont-elles bien réparties ?
-
----
-
 ## 🔧 4. Comment réduire le Bus Factor ?
 
 ### 📖 **1. Documentation claire**
@@ -147,7 +132,7 @@ npm start
 
 ✅ **Commentaires pertinents dans le code**.
 
-![Documentation et bonne pratique](https://user-images.githubusercontent.com/6280556/73296449-a69e6c00-41f0-11ea-91c4-4b3e5c6fd083.png)
+![Documentation et bonne pratique](https://via.placeholder.com/800x400?text=Documentation+Projet)
 
 ```js
 // Mauvais commentaire
@@ -169,17 +154,6 @@ function calc(a, b) {
 
 ---
 
-## 🤝 **2. Partage des connaissances**
-📌 Éviter que **seule une personne détienne l’expertise**.
-
-✅ **Code Reviews systématiques**.
-
-✅ **Pair Programming**.
-
-✅ **Sessions de formation internes**.
-
----
-
 ## 🔄 **3. Automatisation et Standardisation**
 📌 Moins de dépendance humaine = **plus de résilience**.
 
@@ -188,6 +162,8 @@ function calc(a, b) {
 ✅ **Utilisation de frameworks standards**.
 
 ✅ **Scripts d’installation (`docker-compose`, `npm scripts`)**.
+
+![Automatisation](https://via.placeholder.com/800x400?text=Automatisation+CI%2FCD)
 
 ```yaml
 # Exemple de fichier GitHub Actions (CI/CD)
@@ -207,41 +183,6 @@ jobs:
 
 ---
 
-## 🔀 **4. Rotation des rôles**
-📌 Assurer une **distribution des responsabilités**.
-
-✅ Ne pas laisser une seule personne gérer une partie critique.
-
-✅ Organiser des **sessions de passation de connaissances**.
-
----
-
-## 🚨 5. Étude de cas : Bus Factor critique
-
-📌 **Contexte** : Une startup utilise **NestJS + Vue.js**.  
-Le CTO, unique développeur du backend, **démissionne**.
-
-💥 **Problèmes** :
-- Aucune documentation.
-- CI/CD incompréhensible.
-- Code ultra personnalisé.
-
----
-
-## ✅ Solution mise en place
-
-✅ **Analyse du code** par l’équipe.
-
-✅ **Sessions de reverse-engineering**.
-
-✅ **Création d’une documentation technique**.
-
-✅ **Formation des développeurs sur NestJS**.
-
-📌 **Résultat** : Éviter un **retard de plusieurs mois**.
-
----
-
 ## 🚀 Conclusion : Se protéger du Bus Factor
 
 ✅ **Documentation complète et accessible**.
@@ -251,6 +192,8 @@ Le CTO, unique développeur du backend, **démissionne**.
 ✅ **Automatisation des processus et standardisation des outils**.
 
 ✅ **Rotation des responsabilités et planification de la succession**.
+
+![Bus Factor Solution](https://via.placeholder.com/800x400?text=Bus+Factor+Solution)
 
 ---
 
