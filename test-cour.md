@@ -17,7 +17,7 @@ Le **Bus Factor** est le **nombre de personnes pouvant disparaître avant que le
 
 🚌 **Origine** : "Que se passe-t-il si un développeur clé est percuté par un bus ?" (ou quitte l'équipe).
 
-![Bus Factor Illustration](https://via.placeholder.com/800x400?text=Bus+Factor+Illustration)
+![Bus factor](https://placehold.co/600x400)
 
 ```js
 // Exemple de code ultra personnalisé (Bus Factor = 1)
