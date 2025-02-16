@@ -17,7 +17,7 @@ Le **Bus Factor** est le **nombre de personnes pouvant disparaître avant que le
 
 🚌 **Origine** : "Que se passe-t-il si un développeur clé est percuté par un bus ?" (ou quitte l'équipe).
 
-![Bus factor](https://placehold.co/600x400)
+![Bus Factor Illustration](https://placehold.co/600x400?text=Bus+Factor+Illustration)
 
 ```js
 // Exemple de code ultra personnalisé (Bus Factor = 1)
@@ -49,7 +49,7 @@ function processData(input) {
 
 📌 Si elle part → **rupture du développement**.
 
-![Illustration de dépendance](https://via.placeholder.com/800x400?text=Dependance+Projet)
+![Illustration de dépendance](https://placehold.co/600x400?text=Dependance+Projet)
 
 ```sh
 # Vérifier qui modifie le plus le projet
@@ -67,7 +67,7 @@ Si une seule personne est en haut du classement, c'est un **Bus Factor critique*
 
 📌 Nécessité de **reverse-engineering**.
 
-![Exemple de projet avec un Bus Factor critique](https://via.placeholder.com/800x400?text=Projet+Bus+Factor)
+![Exemple de projet avec un Bus Factor critique](https://placehold.co/600x400?text=Projet+Bus+Factor)
 
 ```sh
 # Trouver qui a écrit un morceau de code spécifique
@@ -93,7 +93,7 @@ git log --pretty=format:"%an" --name-only | sort | uniq -c | sort -nr
 - Qui a écrit quelles parties du code ?
 - Utiliser **GitHub Insights** ou `git shortlog -s -n`.
 
-![Exemple de contribution Git](https://via.placeholder.com/800x400?text=Git+Contributions)
+![Exemple de contribution Git](https://placehold.co/600x400?text=Git+Contributions)
 
 ```sh
 # Qui a fait le plus de commits ?
@@ -132,7 +132,7 @@ npm start
 
 ✅ **Commentaires pertinents dans le code**.
 
-![Documentation et bonne pratique](https://via.placeholder.com/800x400?text=Documentation+Projet)
+![Documentation et bonne pratique](https://placehold.co/600x400?text=Documentation+Projet)
 
 ```js
 // Mauvais commentaire
@@ -163,7 +163,7 @@ function calc(a, b) {
 
 ✅ **Scripts d’installation (`docker-compose`, `npm scripts`)**.
 
-![Automatisation](https://via.placeholder.com/800x400?text=Automatisation+CI%2FCD)
+![Automatisation](https://placehold.co/600x400?text=Automatisation+CI%2FCD)
 
 ```yaml
 # Exemple de fichier GitHub Actions (CI/CD)
@@ -193,7 +193,7 @@ jobs:
 
 ✅ **Rotation des responsabilités et planification de la succession**.
 
-![Bus Factor Solution](https://via.placeholder.com/800x400?text=Bus+Factor+Solution)
+![Bus Factor Solution](https://placehold.co/600x400?text=Bus+Factor+Solution)
 
 ---
 
